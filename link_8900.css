@@ -1,0 +1,186 @@
+body:has(main .tabs) {
+    --accent:          #E6149C;
+    --code:            #f06292;
+    --border:          #666;
+    --text:            #dcdcdc;
+    --text-light:      #ababab;
+    --preformatted:    #ccc;
+    --bg:              #400B29;
+    --disabled:        #111;
+    --accent-bg:       #AA2D7B;
+}
+
+main:has(.tabs) {
+  margin: -1.6rem -1rem;
+  padding: 1.6rem 1rem;
+  background-color: color-mix(in srgb, var(--accent) 5%, transparent);
+  z-index: 1;
+}
+
+body:has(main .tabs) .header__age-warning {
+  font-size: 0;
+  border-bottom: 1px solid var(--border);
+}
+
+body:has(main .tabs) .header__age-warning::after {
+  content: '💗 Remember to hydrate and goon to Sylveon ✨';
+  font-size: 0.9rem;
+}
+
+turbo-frame#link_8900 {
+  --accent: #ff70b5;
+  --text: #c7ccd1;
+  --bg: #1b1d23;
+  --accent-bg: var(--bg);
+}
+
+turbo-frame#link_8900 h3 {
+  text-shadow:
+    -2px -2px 0 var(--bg),
+    2px -2px 0 var(--bg),
+    -2px 2px 0 var(--bg),
+    2px 2px 0 var(--bg);
+}
+
+turbo-frame#link_8900 .link {
+  gap: 0;
+  padding: 5px;
+  border: 2px solid var(--accent);
+}
+
+turbo-frame#link_8900 .link::after {
+  opacity: 0 !important;
+}
+
+turbo-frame#link_8900 .link--response,
+turbo-frame#link_8900 .link--response strong,
+turbo-frame#link_8900 .link--terms {
+  color: var(--text);
+}
+
+turbo-frame#link_8900 .link--response {
+  background: var(--accent-bg);
+  margin: -1.25rem 0 -1rem;
+  border-top-left-radius: 0;
+  animation: none;
+  transform: translateY(0);
+  max-height: 15px;
+  opacity: 1;
+  box-shadow: inset 0 0 0 2px var(--accent);
+}
+
+turbo-frame#link_8900 .link--response::before {
+  content: none;
+}
+
+turbo-frame#link_8900 .link--backdrop {
+  opacity: 1 !important;
+}
+
+turbo-frame#link_8900 .link--backdrop::before {
+  background: 0 0 !important;
+}
+
+turbo-frame#link_8900 .link--backdrop img {
+  filter: contrast(1) brightness(0.5) !important;
+}
+
+turbo-frame#link_8900 .link--expires,
+turbo-frame#link_8900 .link--status-bar {
+  display: none !important;
+}
+
+turbo-frame#link_8900 .link--abilities,
+turbo-frame#link_8900 .link--blacklist,
+turbo-frame#link_8900 .link--theme {
+  visibility: hidden !important;
+}
+
+body:has(main .tabs) .mascot {
+  content: url("https://iili.io/KWsCtTb.png");
+  margin: -3px;
+  clip-path: inset(33px 0 0 0) !important;
+  bottom: -34px !important;
+}
+
+body:has(main .tabs) .perverted {
+  content: url("https://iili.io/KWsK1WB.png");
+}
+
+body:has(main .tabs) header h1 .show-mobile {
+  font-size: 0;
+  visibility: hidden;
+}
+
+body:has(main .tabs) header h1 .show-mobile::before {
+  content: "ST";
+  font-size: 1.5rem;
+  visibility: visible;
+  font-family: Audiowide;
+}
+
+body:has(main .tabs) header h1 .show-desktop::before {
+  content: "Sylvtaker";
+  font-size: 3rem;
+  visibility: visible;
+  font-family: Audiowide;
+}
+
+body:has(main .tabs) header h1 .show-desktop {
+  font-size: 0;
+}
+
+body:has(main .tabs) .show-mobile::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -45px;
+  left: -50px;
+  width: 70px;
+  height: 70px;
+  background-image: url("https://iili.io/KWsK1WB.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  visibility: visible;
+}
+
+body:has(main .tabs) turbo-frame.mascot-picker {
+  font-size: 0;
+}
+
+body:has(main .tabs) turbo-frame.mascot-picker form[action="/api/pervert/toggle"] {
+  z-index: 10;
+}
+
+body:has(main .tabs) turbo-frame.mascot-picker form[action="/api/mascot/next"] {
+  display: none;
+}
+
+body:has(main .tabs) turbo-frame.mascot-picker::after {
+  content: 'Sylveon 💖';
+  font-size: 0.7rem;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+}
+
+body:has(main .tabs) .hang div {
+  visibility: hidden;
+  z-index: 2;
+}
+
+.user-tools {
+    background: var(--bg);
+    border-top-left-radius: 0;
+    color: var(--text);
+    animation: none;
+    padding: 0.7rem;
+    box-shadow: inset 0 0 0 2px var(--accent);
+}
+
+
+
+
+
+
+
