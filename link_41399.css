@@ -175,7 +175,15 @@ body:has(main .tabs) turbo-frame.mascot-picker::after {
 body:has(main .tabs) .hang div {
   visibility: hidden;
   z-index: 2;
+}
 
+.user-tools {
+    background: var(--bg);
+    border-top-left-radius: 0;
+    color: var(--text);
+    animation: none;
+    padding: 0.7rem;
+    box-shadow: inset 0 0 0 2px var(--accent);
 }
 
 
