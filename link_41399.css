@@ -11,12 +11,6 @@ body:has(main .tabs) {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;display=swap');
-html {
-    font-family: var(--sans-font);
-}
-code, kbd, pre, pre span, samp {
-    font-family: var(--mono-font);
-}
 
 main:has(.tabs) {
   margin: -1.6rem -1rem;
