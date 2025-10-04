@@ -8,7 +8,6 @@ body:has(main .tabs) {
     --bg:              #400B29;
     --disabled:        #111;
     --accent-bg:       #AA2D7B;
-    --user-leash-bg:   rgba(245, 40, 145, 0.47);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;display=swap');
@@ -125,12 +124,14 @@ body:has(main .tabs) header h1 .show-mobile::before {
   content: "ST";
   font-size: 1.5rem;
   visibility: visible;
+  font-family: Audiowide;
 }
 
 body:has(main .tabs) header h1 .show-desktop::before {
   content: "Sylvtaker";
   font-size: 3rem;
   visibility: visible;
+  font-family: Audiowide;
 }
 
 body:has(main .tabs) header h1 .show-desktop {
@@ -145,7 +146,7 @@ body:has(main .tabs) .show-mobile::after {
   left: -50px;
   width: 70px;
   height: 70px;
-  background-image: url("https://static1.e621.net/data/dd/0f/dd0fefae2cee952bdce54b2344bc21e8.gif");
+  background-image: url("https://iili.io/KWsK1WB.png");
   background-size: contain;
   background-repeat: no-repeat;
   visibility: visible;
@@ -176,6 +177,7 @@ body:has(main .tabs) .hang div {
   z-index: 2;
 
 }
+
 
 
 
