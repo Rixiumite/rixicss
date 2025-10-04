@@ -10,7 +10,7 @@ body:has(main .tabs) {
     --accent-bg:       #AA2D7B;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 main:has(.tabs) {
   margin: -1.6rem -1rem;
@@ -179,6 +179,7 @@ body:has(main .tabs) .hang div {
     padding: 0.7rem;
     box-shadow: inset 0 0 0 2px var(--accent);
 }
+
 
 
 
