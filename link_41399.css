@@ -24,7 +24,7 @@ body:has(main .tabs) .header__age-warning {
 }
 
 body:has(main .tabs) .header__age-warning::after {
-  content: '⚠️ Deer Crossing 🦌';
+  content: '💗 Remember to hydrate and goon to Sylveon ✨';
   font-size: 0.9rem;
 }
 
@@ -98,14 +98,14 @@ turbo-frame#link_47481 .link--theme {
 }
 
 body:has(main .tabs) .mascot {
-  content: url("https://static1.e621.net/data/91/47/91479234a60e836ff17b15f0807b2eee.gif");
+  content: url("https://iili.io/KWsCtTb.png");
   margin: -3px;
   clip-path: inset(33px 0 0 0) !important;
   bottom: -23px !important;
 }
 
 body:has(main .tabs) .perverted {
-  content: url("https://static1.e621.net/data/a3/fd/a3fdca9f9fffc3ddb5eed05984d27153.gif");
+  content: url("https://iili.io/KWsK1WB.png");
 }
 
 body:has(main .tabs) header h1 .show-mobile {
@@ -166,4 +166,5 @@ body:has(main .tabs) turbo-frame.mascot-picker::after {
 body:has(main .tabs) .hang div {
   visibility: hidden;
   z-index: 2;
+
 }
