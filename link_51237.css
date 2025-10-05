@@ -28,9 +28,9 @@ body:has(main .tabs) .header__age-warning::after {
 }
 
 turbo-frame#link_51237 {
-  --accent: #ff70b5;
-  --text: #c7ccd1;
-  --bg: #1b1d23;
+  --accent: #E6149C;
+  --text: #dcdcdc;
+  --bg: #400B29;
   --accent-bg: var(--bg);
 }
 
@@ -177,6 +177,7 @@ body:has(main .tabs) .hang div {
     padding: 0.7rem;
     box-shadow: inset 0 0 0 2px var(--accent);
 }
+
 
 
 
