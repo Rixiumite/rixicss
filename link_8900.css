@@ -33,7 +33,7 @@ turbo-frame#link_8900 {
 
 turbo-frame#link_8900 div.link { 
     width: auto; 
-    height: 152px; 
+    height: 182px; 
 }
 
 turbo-frame#link_8900 div.link--terms { 
@@ -184,6 +184,7 @@ body:has(main .tabs) .hang div {
     padding: 0.7rem;
     box-shadow: inset 0 0 0 2px var(--accent);
 }
+
 
 
 
