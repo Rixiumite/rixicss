@@ -33,9 +33,7 @@ turbo-frame#link_20164 {
 
 turbo-frame#link_20164 div.link { 
     width: auto; 
-    height: 380px; 
-    justify-content: center; 
-    align-items: center; 
+    height: 182px; 
 }
 
 turbo-frame#link_20164 div.link--terms { 
@@ -186,6 +184,7 @@ body:has(main .tabs) .hang div {
     padding: 0.7rem;
     box-shadow: inset 0 0 0 2px var(--accent);
 }
+
 
 
 
