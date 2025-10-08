@@ -33,7 +33,7 @@ turbo-frame#link_22282 {
 
 turbo-frame#link_22282 div.link--terms { 
     width: auto; 
-    height: 182px; 
+    height: 212px; 
 }
 
 turbo-frame#link_22282 div.link { 
@@ -184,6 +184,7 @@ body:has(main .tabs) .hang div {
     padding: 0.7rem;
     box-shadow: inset 0 0 0 2px var(--accent);
 }
+
 
 
 
