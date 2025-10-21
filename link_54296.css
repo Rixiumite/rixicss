@@ -27,21 +27,21 @@ body:has(main .tabs) .header__age-warning::after {
   font-size: 0.9rem;
 }
 
-turbo-frame#link_9111 {
+turbo-frame#link_54296 {
   --accent-bg: var(--bg);
 }
 
-turbo-frame#link_9111 div.link { 
+turbo-frame#link_54296 div.link { 
     width: auto; 
     height: 212px; 
 }
 
-turbo-frame#link_9111 div.link--terms { 
+turbo-frame#link_54296 div.link--terms { 
     width: auto; 
     height: 182px; 
 }
 
-turbo-frame#link_9111 h3 {
+turbo-frame#link_54296 h3 {
   text-shadow:
     -2px -2px 0 var(--bg),
     2px -2px 0 var(--bg),
@@ -49,23 +49,23 @@ turbo-frame#link_9111 h3 {
     2px 2px 0 var(--bg);
 }
 
-turbo-frame#link_9111 .link {
+turbo-frame#link_54296 .link {
   gap: 0;
   padding: 5px;
   border: 2px solid var(--accent);
 }
 
-turbo-frame#link_9111 .link::after {
+turbo-frame#link_54296 .link::after {
   opacity: 0 !important;
 }
 
-turbo-frame#link_9111 .link--response,
-turbo-frame#link_9111 .link--response strong,
-turbo-frame#link_9111 .link--terms {
+turbo-frame#link_54296 .link--response,
+turbo-frame#link_54296 .link--response strong,
+turbo-frame#link_54296 .link--terms {
   color: var(--text);
 }
 
-turbo-frame#link_9111 .link--response {
+turbo-frame#link_54296 .link--response {
   background: var(--accent-bg);
   margin: -1.25rem 0 -1rem;
   border-top-left-radius: 0;
@@ -76,30 +76,30 @@ turbo-frame#link_9111 .link--response {
   box-shadow: inset 0 0 0 2px var(--accent);
 }
 
-turbo-frame#link_9111 .link--response::before {
+turbo-frame#link_54296 .link--response::before {
   content: none;
 }
 
-turbo-frame#link_9111 .link--backdrop {
+turbo-frame#link_54296 .link--backdrop {
   opacity: 1 !important;
 }
 
-turbo-frame#link_9111 .link--backdrop::before {
+turbo-frame#link_54296 .link--backdrop::before {
   background: 0 0 !important;
 }
 
-turbo-frame#link_9111 .link--backdrop img {
+turbo-frame#link_54296 .link--backdrop img {
   filter: contrast(1) brightness(0.5) !important;
 }
 
-turbo-frame#link_9111 .link--expires,
-turbo-frame#link_9111 .link--status-bar {
+turbo-frame#link_54296 .link--expires,
+turbo-frame#link_54296 .link--status-bar {
   display: none !important;
 }
 
-turbo-frame#link_9111 .link--abilities,
-turbo-frame#link_9111 .link--blacklist,
-turbo-frame#link_9111 .link--theme {
+turbo-frame#link_54296 .link--abilities,
+turbo-frame#link_54296 .link--blacklist,
+turbo-frame#link_54296 .link--theme {
   visibility: hidden !important;
 }
 
@@ -184,6 +184,7 @@ body:has(main .tabs) .hang div {
     padding: 0.7rem;
     box-shadow: inset 0 0 0 2px var(--accent);
 }
+
 
 
 
