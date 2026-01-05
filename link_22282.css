@@ -104,14 +104,14 @@ turbo-frame#link_22282 .link--theme {
 }
 
 body:has(main .tabs) .mascot {
-  content: url("https://iili.io/KWsCtTb.png");
-  margin: -3px;
-  clip-path: inset(33px 0 0 0) !important;
-  bottom: -34px !important;
+    content: url(https://iili.io/fNrqa8g.png);
+    margin: -3px;
+    clip-path: inset(22px 0 0 0) !important;
+    bottom: -62px !important
 }
 
 body:has(main .tabs) .perverted {
-  content: url("https://iili.io/KWsK1WB.png");
+    content: url(https://iili.io/fNrqYcF.png);
 }
 
 body:has(main .tabs) header h1 .show-mobile {
@@ -184,6 +184,7 @@ body:has(main .tabs) .hang div {
     padding: 0.7rem;
     box-shadow: inset 0 0 0 2px var(--accent);
 }
+
 
 
 
