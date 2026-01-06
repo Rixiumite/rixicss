@@ -145,7 +145,7 @@ body:has(main .tabs) .show-mobile::after {
   left: -50px;
   width: 70px;
   height: 70px;
-  background-image: url("https://iili.io/KWsK1WB.png");
+  background-image: url("https://iili.io/fNrqa8g.png");
   background-size: contain;
   background-repeat: no-repeat;
   visibility: visible;
@@ -184,6 +184,7 @@ body:has(main .tabs) .hang div {
     padding: 0.7rem;
     box-shadow: inset 0 0 0 2px var(--accent);
 }
+
 
 
 
